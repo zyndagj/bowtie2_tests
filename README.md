@@ -13,6 +13,21 @@ This makefile
 - Aligns
   - Each read set using bowtie2
 
+### Requirements
+
+- valid `TBBROOT` environment variable
+- gcc, g++
+- The following libs
+  - libbz2
+  - libz
+  - libcrypto
+  - liblzma
+  - libm
+  - libssl
+  - libtbbmalloc_proxy
+  - libtbbmalloc
+  - libtbb
+
 ### Usage
 
 ```
